@@ -297,9 +297,9 @@ section{
 
  .header_box_logo_arrow {
   position: absolute;
-  top: 65px;
-  left: 50px;
-  width: 54px;
+  top: 21px;
+  left: 19px;
+  width: 24px;
 }
 .header_image{
   width: 100%;
@@ -317,15 +317,15 @@ section{
 }
 .main_menu_box_titre_titre{
   font-family: "Shrikhand-regular";
-  margin: 32px 0px 0px 32px;
-  font-size:70px;
+  margin: 32px 0px 0px 26px;
+  font-size:28px;
 }
 .main_menu_box_titre_heart{
 
   background-size: 25px 22px;
-  margin: 50px 85px 0px 0px;
-  width: 70px;
-  height: 58px;
+  margin: 38px 22px 0px 0px;
+  width: 37px;
+  height: 28px;
   cursor: pointer;
 }
 .article_menu_box_titre {
@@ -339,7 +339,7 @@ section{
 .article_menu_box_titre_trait {
   background-color: #99e2d0;
   width: 12%;
-  height: 6px;
+  height: 3px;
 }
 .box_sections_menu{
   display:flex;
@@ -397,6 +397,12 @@ animation: animSection 1s;
   justify-content: flex-end;
   align-items: center;
 }
+.box_sections_menu_section:hover .box_sections_menu_section_check{
+width: 50px;
+background-color: green;
+opacity: 1;
+transition: 0.3s;
+}
 .box_sections_menu_section_txt {
   display: flex;
   flex-direction: column;
@@ -413,6 +419,13 @@ animation: animSection 1s;
   font-size: 1.1em;
   font-family: "Roboto-Medium";
 }
+span{
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 10px;
+  font-family: 'Roboto-bold';
+}
+
 .zone-txt {
   width: 217px;
   font-size: 0.9em;
@@ -424,7 +437,7 @@ p {
 }
 .box_sections_menu_section_check {
   border-radius: 0px 15px 15px 0px;
-  width: 50px;
+  width: 0;
   height: 100%;
   display: flex;
   justify-content: center;

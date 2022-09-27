@@ -3,5 +3,7 @@ setTimeout(() => {
 
 },2240);
 
+document.querySelector('.like-button').addEventListener('click', (e) => {
+    e.currentTarget.classlist.toggle('liked');
 
-
+});

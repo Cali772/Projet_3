@@ -6,23 +6,23 @@
 }
 @font-face {
   font-family: "Roboto-light";
-  src: url(/font/roboto/Roboto-Light.ttf);
+  src: url(../font/roboto/Roboto-Light.ttf);
 }
 @font-face {
   font-family: "Roboto-regular";
-  src: url(/font/roboto/Roboto-Regular.ttf);
+  src: url(../font/roboto/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: "Roboto-medium";
-  src: url(/font/roboto/Roboto-Medium.ttf);
+  src: url(../font/roboto/Roboto-Medium.ttf);
 }
 @font-face {
   font-family: "Roboto-bold";
-  src: url(/font/roboto/Roboto-Bold.ttf);
+  src: url(../font/roboto/Roboto-Bold.ttf);
 }
 @font-face {
   font-family: "Shrikhand-regular";
-  src: url(/font/Shrikhand/Shrikhand-Regular.ttf);
+  src: url(../font/Shrikhand/Shrikhand-Regular.ttf);
 }
 * {
     margin: 0;
@@ -113,27 +113,27 @@ body {
   }
   
   .header_box_nav_icon_phone {
-    background-image: url(/image/Icon/phone.png);
+    background-image: url(../image/Icon/phone.png);
   }
   
   .header_box_nav_icon_menu {
-    background-image: url(/image/Icon/menu.png);
+    background-image: url(../image/Icon/menu.png);
   }
   
   .header_box_nav_icon_store {
-    background-image: url(/image/Icon/store.png);
+    background-image: url(../image/Icon/store.png);
   }
   
   .header_box_nav_icon_phone:hover {
-    background-image: url(/image/Icon/phone_purple.png);
+    background-image: url(../image/Icon/phone_purple.png);
   }
   
   .header_box_nav_icon_menu:hover {
-    background-image: url(/image/Icon/menu_purple.png);
+    background-image: url(../image/Icon/menu_purple.png);
   }
   
   .header_box_nav_icon_store:hover {
-    background-image: url(/image/Icon/store_purple.png);
+    background-image: url(../image/Icon/store_purple.png);
   }
   
   .header_box_nav_icon_phone, .header_box_nav_icon_menu, .header_box_nav_icon_store {
@@ -250,7 +250,7 @@ section{
     margin: 6px 13px 6px 13px;
   }
 .section_box_description_icon {
-  background-image: url(/image/Icon/heart.png);
+  background-image: url(../image/Icon/heart.png);
     background-size: 25px 22px;
     margin: 7px 24px 0px 0px;
     width: 25px;
@@ -476,7 +476,7 @@ p {
   cursor: pointer;
 }
 
-/*.preloader{
+.preloader{
   position: fixed;
   top: 0;
   left: 0;
@@ -517,4 +517,4 @@ p {
   0% {transform: rotate(0deg);}
 
   100% {transform: rotate(360deg);}
-}*/
+}

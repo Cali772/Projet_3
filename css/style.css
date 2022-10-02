@@ -457,13 +457,15 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
+  background-color: #99e2d0;
+  transition: 0.3s;
 }
 .box_sections_menu_section_check_img {
   width: 22px;
   height: 20px;
   transform: rotate(-360deg);
   opacity: 0;
+  transition: 0.3s;
 }
 .zone_bouton {
   display: flex;

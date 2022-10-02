@@ -256,11 +256,11 @@ section{
     width: 25px;
     height: 22px;
     cursor: pointer;
+    transition: ease-in-out 0.3s;
   }
-.section_box_description_icon:hover {
+.section_box_description_icon.liked {
     background-image: url(../image/Icon/heart_pink.png);
     background-size: 25px 22px;
-    transition: ease-in-out 1s;
   }
 
 /*Footer*/

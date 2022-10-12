@@ -602,8 +602,6 @@ p {
   }
 }
 
-body{}
-
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 991px) { 
   .main_article_sections {
@@ -622,6 +620,16 @@ body{}
 
 /* PC */
 @media screen and (min-width: 992px){
+  .main_article_sections {
+    max-width: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .section{
+    margin: unset;
+    width: 450px;
+  }
 }
 
 

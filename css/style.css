@@ -572,6 +572,12 @@ p {
   justify-content: center;
   flex-direction: column;
   opacity: 0.8;
+
+  transition: 0.3s;
+}
+
+.preloader.hide{
+  opacity: 0;
 }
 
 .preloader .loader {

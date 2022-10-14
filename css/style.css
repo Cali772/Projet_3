@@ -64,11 +64,13 @@ body {
 
 .header_box_position {
   background-color: #eaeaea;
-  font-size: medium;
-  padding: 10px;
+  font-size: 1em;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto-regular';
+  font-weight: 600;
 }
 
 .header_box_position_icon {
@@ -113,7 +115,7 @@ body {
 }
 
 .header_box_title {
-  margin-top: 86px;
+  margin-top: 40px;
 }
 
 .header_box_title_title {
@@ -193,7 +195,7 @@ body {
 /*Main*/
 
 .main_container {
-  margin-top: 66px;
+  margin-top: 30px;
   width: 100%;
 }
 
@@ -309,10 +311,9 @@ h2 {
 .footer a {
   color: white;
   text-decoration: none;
-  font-family: "roboto";
-  font-weight: 400;
+  font-family: "roboto-regular";
+  font-size: 1em;
 }
-
 .footer_box_logo_logo {
   width: 100px;
   filter: invert(1);
@@ -326,13 +327,11 @@ h2 {
   width: 15px;
 }
 
-.footer_box_nav_icon li .footer_box_nav li {
+.footer_box_nav_icon li {
   margin-bottom: 7px;
 }
-
-.footer_box_nav {
-  margin-top: 10px;
-
+.footer_box_nav li{
+  margin-bottom: 7px;
 }
 
 /*Page La palette du goût*/
@@ -631,17 +630,41 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
   }
-
   .section{
     margin: unset;
     width: 450px;
   }
-}
-
-
-
-/*
-@media screen and (min-width: 600px) {
+  .header_box_nav ul {
+    margin: 26px 10px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .header_image {
+    height: 500px;
+    object-fit: cover;
+  }
+  .box_sections_menu_section {
+    margin: 10px;
+  }
+  .box_sections_menu {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .article_menu_box_titre_titre{
+    text-align: center;
+  }
+  .article_menu_box_titre_trait{
+    margin-left: 45%;
+    width: 10%;
+  }
+  .main_article_title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.3em;
+  }
   .main_article_title {
     text-align: center;
     margin-bottom: 60px;
@@ -662,66 +685,16 @@ p {
     margin: 0px;
     font-size: 1.3em;
   }
-}
-
-@media screen and (min-width: 1150px) {
-  .box_sections_menu_section {
-    margin: 10px;
-  }
-  .box_sections_menu {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .article_menu_box_titre_titre{
-    text-align: center;
-  }
-  .article_menu_box_titre_trait{
-    margin-left: 45%;
-    width: 10%;
-  }
-}
-
-@media screen and (min-width: 1000px) {
   .header_box_logo {
     box-shadow: 0px 0px 0px #e0e1e3;
   }
-}
-
-@media screen and (min-width: 1300px) {
-  .main_article_box_titre {
-    text-align: center;
-    margin-bottom: 60px;
-    font-size: 1.3em;
+  button, a {
+    font-size: 1em;
+  }
+  .header_box_title {
+    margin-top: 70px;
+  }
+  .main_container {
+    margin-top: 50px;
   }
 }
-
-@media (min-width:768px) and (max-width:2000px) {
-
-  .main_article {
-    padding: 55px 0px 50px 0px;
-  }
-
-  .main_article_sections {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  section {
-    width: 29%;
-  }
-  .box_sections_menu {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .article_menu_box_titre_titre{
-    text-align: center;
-  }
-  .article_menu_box_titre_trait{
-    margin-left: 45%;
-    width: 10%;
-  }
-}
-*/

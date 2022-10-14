@@ -346,6 +346,8 @@ h2 {
 .header_image {
   width: 100%;
   position: relative;
+  height: 250px;
+  object-fit: cover;
 }
 
 .main_menu {
@@ -619,6 +621,10 @@ p {
     margin: auto;
     width: calc(50% - 30px);
     box-sizing: border-box;
+  }
+  .header_image{
+  height: 400px;
+  object-fit: cover;
   }
 }
 

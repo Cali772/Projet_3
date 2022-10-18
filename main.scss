@@ -1,4 +1,5 @@
 :root {
+  --font-family: 'Roboto-regular', sans-serif;
   --background-color: #fafafa;
   --primary-color: #9356DC;
   --secondary-color: #FF79DA;
@@ -42,7 +43,7 @@ body {
 }
 
 body {
-  font-family: 'Roboto-regular';
+  font-family: var(--font-family);
   background-color: var(--background-color);
 }
 
@@ -476,7 +477,7 @@ h1, h2 {
 
 .box_sections_menu_section .box_sections_menu_section_check,
 .box_sections_menu_section .box_sections_menu_section_check_img {
-  transition: 0.3s;
+  transition: 0.3;
 }
 
 .box_sections_menu_section:hover .box_sections_menu_section_check {

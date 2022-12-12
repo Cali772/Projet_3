@@ -65,7 +65,7 @@ span {
   margin-right: 10px;
   font-family: 'Roboto-bold';
   position: absolute;
-  right: 20px;
+  right: 1px;
   bottom: 0;
   font-size: 1em;
 }
@@ -109,7 +109,7 @@ button:hover{
   height: 28px;
 }
 
-  .header_box_position {
+.header_box_position {
   background-color: #eaeaea;
   font-size: 1em;
   padding: 15px;
@@ -416,7 +416,7 @@ button:hover{
 
 
 .article_menu_box_titre {
-  margin: 29px 0px 0px 20px;
+  margin: 29px 0px 0px 19px;
 }
 
 .article_menu_box_titre_titre {
@@ -490,7 +490,7 @@ button:hover{
 }
 
 .box_sections_menu_section {
-  width: 349px;
+  width: 347px;
   height: 80px;
   margin-bottom: 10px;
   border-radius: 15px;
@@ -512,6 +512,7 @@ button:hover{
   width: 80px;
   background-color: #99e2d0;
   opacity: 1;
+  
 }
 
 .box_sections_menu_section:hover .box_sections_menu_section_check_img {
@@ -532,7 +533,7 @@ button:hover{
 }
 
 .zone_txt {
-  width: 217px;
+  width: 291px;
   font-size: 1em;
 }
 

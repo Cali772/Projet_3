@@ -50,9 +50,6 @@ h1, h2 {
 h3, a {
   font-size: 1.1em;
   font-family: "Roboto-Medium";
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 p {
@@ -538,6 +535,12 @@ button:hover{
   position: relative;
   text-overflow: ellipsis;
   transition: 0.5s;
+}
+
+.box_sections_menu_section_txt h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .box_sections_menu_description{

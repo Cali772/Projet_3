@@ -737,6 +737,22 @@ button:hover{
   height: 400px;
   object-fit: cover;
   }
+  .box_sections_menu_section {
+    width: 340px;
+    margin-left: 10px;
+  }
+  .article_menu_box_titre_titre{
+    text-align: center;
+  }
+  .article_menu_box_titre_trait{
+    margin-left: 45%;
+    width: 10%;
+  }
+  .box_sections_menu {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 /* PC */
